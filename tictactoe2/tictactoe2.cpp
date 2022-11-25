@@ -136,6 +136,25 @@ int main()
         else if (c1 == 'X' and b2 == 'X' and a3 == 'X') {
             rex = true;
         }
+        else if (a1 == 'X' and b1 == 'X' and c1 == 'X') {
+            rex = true;
+        }
+        else if (a2 == 'X' and b2 == 'X' and c2 == 'X') {
+            rex = true;
+        }
+        else if (a3 == 'X' and b3 == 'X' and c3 == 'X') {
+            rex = true;
+        }
+
+        else if (a1 == 'X' and a2 == 'X' and a3 == 'X') {
+            rex = true;
+        }
+        else if (b1 == 'X' and b2 == 'X' and b3 == 'X') {
+            rex = true;
+        }
+        else if (c1 == 'X' and c2 == 'X' and c3 == 'X') {
+            rex = true;
+        }
     }
 }
 
