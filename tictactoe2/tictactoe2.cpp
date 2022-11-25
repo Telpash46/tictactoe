@@ -133,7 +133,9 @@ int main()
         if (a1 == 'X' and b2 == 'X' and c3 == 'X') {
             rex = true;
         }
-       ;
+        else if (c1 == 'X' and b2 == 'X' and a3 == 'X') {
+            rex = true;
+        }
     }
 }
 
