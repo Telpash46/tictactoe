@@ -26,6 +26,7 @@ int main()
     c2 = '.';
     c3 = '.';
     bool rex = false;
+    bool xoder = false;
 
 
     // вывод поля
@@ -130,31 +131,69 @@ int main()
         cout << "1 " << a1 << " " << b1 << " " << c1 << endl;
         cout << "2 " << a2 << " " << b2 << " " << c2 << endl;
         cout << "3 " << a3 << " " << b3 << " " << c3 << endl;
-        if (a1 == 'X' and b2 == 'X' and c3 == 'X') {
+
+
+        if (a1 == b2 && b2 == c3) {
+            break;
+        }
+
+
+        /*
+        if (a1 == 'X' && b2 == 'X' && c3 == 'X') {
             rex = true;
         }
-        else if (c1 == 'X' and b2 == 'X' and a3 == 'X') {
+        else if (c1 == 'X' && b2 == 'X' && a3 == 'X') {
             rex = true;
         }
-        else if (a1 == 'X' and b1 == 'X' and c1 == 'X') {
+        else if (a1 == 'X' && b1 == 'X' && c1 == 'X') {
             rex = true;
         }
-        else if (a2 == 'X' and b2 == 'X' and c2 == 'X') {
+        else if (a2 == 'X' && b2 == 'X' && c2 == 'X') {
             rex = true;
         }
-        else if (a3 == 'X' and b3 == 'X' and c3 == 'X') {
+        else if (a3 == 'X' && b3 == 'X' && c3 == 'X') {
             rex = true;
         }
 
-        else if (a1 == 'X' and a2 == 'X' and a3 == 'X') {
+        else if (a1 == 'X' && a2 == 'X' && a3 == 'X') {
             rex = true;
         }
-        else if (b1 == 'X' and b2 == 'X' and b3 == 'X') {
+        else if (b1 == 'X' && b2 == 'X' && b3 == 'X') {
             rex = true;
         }
-        else if (c1 == 'X' and c2 == 'X' and c3 == 'X') {
+        else if (c1 == 'X' && c2 == 'X' && c3 == 'X') {
             rex = true;
         }
+
+
+
+        if (a1 == 'O' and b2 == 'O' and c3 == 'O') {
+            rex = true;
+        }
+        else if (c1 == 'O' and b2 == 'O' and a3 == 'O') {
+            rex = true;
+        }
+        else if (a1 == 'O' and b1 == 'O' and c1 == 'O') {
+            rex = true;
+        }
+        else if (a2 == 'O' and b2 == 'O' and c2 == 'O') {
+            rex = true;
+        }
+        else if (a3 == 'O' and b3 == 'O' and c3 == 'O') {
+            rex = true;
+        }
+
+        else if (a1 == 'O' and a2 == 'O' and a3 == 'O') {
+            rex = true;
+        }
+        else if (b1 == 'O' and b2 == 'O' and b3 == 'O') {
+            rex = true;
+        }
+        else if (c1 == 'O' and c2 == 'O' and c3 == 'O') {
+            rex = true;
+        }
+        */
+        
     }
 }
 
