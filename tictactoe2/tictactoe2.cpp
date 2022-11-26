@@ -432,57 +432,66 @@ int main()
                      if (a1 != 'O' && a1 != 'X') {
                          a1 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 2) {
                      if (a2 != 'O' && a2 != 'X') {
                          a2 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 3) {
                      if (a3 != 'O' && a3 != 'X') {
                          a3 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 4) {
                      if (b1 != 'O' && b1 != 'X') {
                          b1 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 5) {
                      if (b2 != 'O' && b2 != 'X') {
                          b2 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 6) {
                      if (b3 != 'O' && b3 != 'X') {
                          b3 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 7) {
                      if (c1 != 'O' && c1 != 'X') {
                          c1 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 8) {
                      if (c2 != 'O' && c2 != 'X') {
                          c2 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
                  if (xodo == 9) {
                      if (c3 != 'O' && c3 != 'X') {
                          c3 = symbol;
                          reb = true;
+                         tern++;
                      }
                  }
-                 tern++;
+                 
              }
          }
         
