@@ -505,77 +505,94 @@ int main()
          if ((a1 == b2 && b2 == c3) && (a1 != '.' && b2 != '.' && c3 != '.')) {
              if (a1 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((c1 == b2 && b2 == a3) && (a3 != '.' && b2 != '.' && c1 != '.')) {
              if (c1 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((a1 == a2 && a2 == a3) && (a3 != '.' && a2 != '.' && a3 != '.')) {
              if (a1 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((b1 == b2 && b2 == b3) && (b3 != '.' && b2 != '.' && b1 != '.')) {
              if (b1 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((c1 == c2 && c2 == c3) && (c3 != '.' && c2 != '.' && c1 != '.')) {
              if (c1 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((a1 == b1 && b1 == c1) && (a1 != '.' && b1 != '.' && c1 != '.')) {
              if (c1 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((a2 == b2 && b2 == c2) && (a2 != '.' && b2 != '.' && c2 != '.')) {
              if (c2 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if ((a3 == b3 && b3 == c3) && (a3 != '.' && b3 != '.' && c3 != '.')) {
              if (c3 == 'X') {
                  cout << "X выиграл" << endl;
+                 system("pause");
              }
              else {
                  cout << "O выиграл" << endl;
+                 system("pause");
              }
              break;
          }
          else if (tern == 9) {
              cout << "Никто не выиграл. Ничья" << endl;
+             system("pause");
              break;
          }
      }
